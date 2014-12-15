@@ -27,5 +27,10 @@ class ReversePolishText extends \PHPUnit_Framework_TestCase {
     public function testUserDataArrayProcess($process, $method, $result) {
         $this->assertEquals($result, process($process, $method));
     }
+
+    public function testNotImplementedError() {
+        $this->setExpectedException('NotImplementedException');
+        process(new UserDefinedArray(array('2','1','+','3','*', '-')), new ReversePolishNotation);
+    }
 }
  

@@ -30,8 +30,13 @@ class ReversePolishNotation extends DataStructure implements NotationInterface {
      * Pops the element from the bottom of the Stack
      *
      * @return int $value Operand
+     * @throws EmptyStackException when the stack is empty, while getting a new element
      */
     public function getElement() {
+        if (count($this->Stack) <= 0) {
+            throw new EmptyStackException('Stack is Empty. More Operator than Operands?');
+        }
+
         return array_shift($this->Stack);
     }
 }

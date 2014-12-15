@@ -5,7 +5,7 @@
  *
  * This class defines how an user defined array can be passed to the process.
  */
-class UserDefinedArray extends Process {
+class UserDefinedArray implements ProcessInterface {
     /**
      * Input Array
      * @var int[] List of Data sets

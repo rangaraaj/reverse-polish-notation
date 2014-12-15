@@ -1,6 +1,15 @@
 <?php
 
 /**
+ * Class EmptyStackException
+ *
+ * When Stack is empty
+ */
+class EmptyStackException extends Exception {
+
+}
+
+/**
  * Class DataStructure
  */
 class DataStructure {

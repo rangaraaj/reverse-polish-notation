@@ -5,7 +5,7 @@
  *
  * Class that defined the methods for real time cli to input the data
  */
-class RealTimeCLI extends Process {
+class RealTimeCLI implements ProcessInterface {
     /**
      * Each Value
      *

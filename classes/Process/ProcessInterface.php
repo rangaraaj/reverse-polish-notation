@@ -6,7 +6,7 @@
  * This class is an interface that defines methods that will enable an user to pass the value by
  * any means he/she wants to deliver the data to the Notation Interface.
  */
-interface Process {
+interface ProcessInterface {
     /**
      * Has next
      *
