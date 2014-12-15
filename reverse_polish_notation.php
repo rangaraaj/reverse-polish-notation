@@ -1,5 +1,5 @@
 <?php
-require_once 'polish/init.php';
+require_once 'classes/init.php';
 
 /**
  * Process
