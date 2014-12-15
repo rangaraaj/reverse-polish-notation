@@ -12,8 +12,8 @@ class NotImplementedException extends Exception {
 /**
  * Class InputParameter
  *
- * Class Input Parameter represents the input. It can either be the operator or the operand.
- * This class defines the rules and functions of the Input Parameter
+ * Class InputParameter defines rules and methods associated with the Input. It can either be the operator
+ * or the operand.
  */
 class InputParameter {
     /**

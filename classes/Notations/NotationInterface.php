@@ -3,10 +3,10 @@
 /**
  * Interface NotationInterface
  *
- * This is an interface that defines the standard methods that needs to be defined, in order to perform the
- * Polish Notation or Reverse Polish Notation Algorithms. It decided to write an interface for Notation because,
- * there was a variation found in the algorithm, we could either perform Reverse Polish Notation Algorithm
- * or a Polish Notation Algorithm in the given set of data.
+ * This is an interface that defines the standard methods that needs to be written, in order to perform the
+ * Polish Notation or Reverse Polish Notation Algorithms. I decided to write an interface for Notation because,
+ * there was a variation found in the method, we could either perform Reverse Polish Notation Algorithm
+ * or a Polish Notation Algorithm. And hence, I went with an Interface.
  */
 interface NotationInterface {
     /**
