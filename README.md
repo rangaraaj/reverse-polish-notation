@@ -29,7 +29,7 @@ PHPUnit test is written for the following functions;
 function process($process, $method);
 ```
 
-Just a few tests are written due to time constraints. The test tests with the result matches with what is expected.
+Just a few tests are written due to time constraints. The test tests, if the result matches with what is expected.
 
 
 ##How to Run RealTimeCLI
